@@ -18,7 +18,7 @@ docker network create fpa-docker-app
 
 Subir MySQL
 ```sh
-docker run --name mysqlservice --network fpa-docker-app -e MYSQL_ROOT_PASSWORD=fctest -e MYSQL_DATABASE=fcapp -d mysql --default-authentication-plugin=mysql_native_password
+docker run --name mysqlservice --network fpa-docker-app -e MYSQL_ROOT_PASSWORD=fctest -e MYSQL_DATABASE=fcapp -d mysql:8.0.24 --default-authentication-plugin=mysql_native_password
 ```
 
 Execução Service
