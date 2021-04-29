@@ -34,3 +34,11 @@ docker run -d -p 8080:80 --name fpa-docker-nginx --network fpa-docker-app taless
 ### Validação
 
 Após todos os comandos executados, acesse o endereço **http://localhost:8080/modules** para que os módulos do curso sejam listados.
+
+### Esboço da solução
+
+![Esboço](/.github/esboco.png)
+
+### Resultado
+
+![Esboço](/.github/resultado.png)
