@@ -41,4 +41,4 @@ Após todos os comandos executados, acesse o endereço **http://localhost:8080/m
 
 ### Resultado
 
-![Esboço](/.github/resultado.png)
+![Esboço](/.github/resultado_list.png)
